@@ -1,7 +1,4 @@
-﻿/*###################################
- * Einsendeaufgabe 3.5
- ###################################*/
-
+﻿
 /*In diesem Program habe ich Datentyp double  und Methode ToDouble benutzt
   aber das Program funktioniert auch mit Datentyp float stadt double und
   Methode ToSinlge stadt ToDouble*/
