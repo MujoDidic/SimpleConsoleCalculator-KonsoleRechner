@@ -2,6 +2,8 @@
 /*In diesem Program habe ich Datentyp double  und Methode ToDouble benutzt
   aber das Program funktioniert auch mit Datentyp float stadt double und
   Methode ToSinlge stadt ToDouble*/
+/*On date 09.04.2021 I translated this Program on English Language 
+ as practise for Git Hub*/
 using System;
 
 namespace Einsendeaufgabe3._5
