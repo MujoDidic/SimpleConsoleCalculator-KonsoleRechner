@@ -12,23 +12,23 @@ namespace Einsendeaufgabe3._5
         {
           
         
-            Console.WriteLine("Erlaubte Operationen: \n\t-Addition \" + \"" +
-                                                    "\n\t-Addition \" - \"" +
-                                                    "\n\t-Addition \" * \"" +
-                                                    "\n\t-Addition \" / \"" +
-                                                    "\n\t-Addition \" : \"");
+            Console.WriteLine("Permitted operations: \t \" + \"" +
+                                                    "\t \" - \"" +
+                                                    "\t \" * \"" +
+                                                    "\t \" / \"" +
+                                                    "\t \" : \"");
             double zahl1, zahl2;
             char operation;
-            string ergebnis = "Ergebnis von ihre Nummer ist: {0} ";
-            string text = "Nummer eingeben und Eingabetaste drucken:   ";
+            string ergebnis = "Result of your numbers is: {0} ";
+            string text = "Enter number and press Enter:   ";
 
-            Console.Write("Erste " + text);
+            Console.Write("First " + text);
             zahl1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Eingeben Rechenoperation und Eingabetaste drucken: ");
+            Console.Write("Enter arithmetic operation and press enter: ");
             operation = Convert.ToChar(Console.ReadLine());
 
-            Console.Write("Zweite " + text);
+            Console.Write("Second " + text);
             zahl2 = Convert.ToDouble(Console.ReadLine());
 
          
@@ -108,7 +108,7 @@ namespace Einsendeaufgabe3._5
             return (zahl3);
              
             
-        }
+        } //Ende Doppelnummer
     } //Ende class Program
 }
 
